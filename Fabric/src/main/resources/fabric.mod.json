@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "naturalcharcoal",
-  "version": "1.0",
+  "version": "1.1",
 
   "name": "Natural Charcoal",
   "description": "Burned out logs have a chance to generate charcoal, which are immune to fire.",
