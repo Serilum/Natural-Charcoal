@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "naturalcharcoal",
+  "version": "1.1",
+
+  "name": "Natural Charcoal",
+  "description": "Burned out logs have a chance to generate charcoal, which are immune to fire.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/natural-charcoal",
+    "sources": "https://github.com/Serilum/Natural-Charcoal",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Natural%20Charcoal"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.naturalcharcoal.ModFabric" ], "client": [ "com.natamus.naturalcharcoal.ModFabricClient" ], "modmenu": [ "com.natamus.naturalcharcoal.fabric.config.IntegrateModMenu" ] },
+  "mixins": [
+    "naturalcharcoal.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "collective": ">=8.17"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://serilum.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " akanealw",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " MWS",
+	  " t128",
+	  " Tyler Behl",
+	  " XAgent",
+	  " ตัวตรึง พระนคร"
+  ]
+}
