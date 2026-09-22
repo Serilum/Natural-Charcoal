@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "naturalcharcoal",
-  "version": "1.1",
+  "version": "1.2",
 
   "name": "Natural Charcoal",
   "description": "Burned out logs have a chance to generate charcoal, which are immune to fire.",
@@ -26,7 +26,7 @@
     "fabric-api": "*",
     "minecraft": ">=26.2",
     "java": ">=25",
-    "collective": ">=8.29"
+    "collective": ">=8.39"
   },
 
   "custom": {
@@ -45,11 +45,10 @@
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
+	  " AnyankaT",
 	  " aternosorg",
 	  " Cherriesaurus",
-	  " Josh",
 	  " Linda Jansen",
-	  " Michelle Smith",
 	  " MWS",
 	  " Tyler Behl"
   ]
