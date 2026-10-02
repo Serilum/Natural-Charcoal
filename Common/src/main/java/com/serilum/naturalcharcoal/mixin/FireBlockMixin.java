@@ -1,7 +1,7 @@
-package com.natamus.naturalcharcoal.mixin;
+package com.serilum.naturalcharcoal.mixin;
 
 import com.natamus.collective.functions.CompareBlockFunctions;
-import com.natamus.naturalcharcoal.config.ConfigHandler;
+import com.serilum.naturalcharcoal.config.ConfigHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.util.RandomSource;
@@ -37,7 +37,7 @@ public class FireBlockMixin {
 
 	// For Forge, because they changed the name and added Direction via a patch.
 	@SuppressWarnings({"UnresolvedMixinReference", "MixinAnnotationTarget"})
-    @Inject(method = "tryCatchFire", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/Level;removeBlock(Lnet/minecraft/core/BlockPos;Z)Z"))
+	@Inject(method = "tryCatchFire", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/Level;removeBlock(Lnet/minecraft/core/BlockPos;Z)Z"))
 	private void tryCatchFire(Level level, BlockPos pos, int chance, RandomSource random, int age, Direction direction, CallbackInfo ci) {
 		BlockState blockState = level.getBlockState(pos);
 		Block block = blockState.getBlock();
