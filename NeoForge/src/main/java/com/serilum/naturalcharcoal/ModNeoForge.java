@@ -1,9 +1,9 @@
-package com.natamus.naturalcharcoal;
+package com.serilum.naturalcharcoal;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.naturalcharcoal.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.naturalcharcoal.util.Reference;
+import com.serilum.naturalcharcoal.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.naturalcharcoal.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;

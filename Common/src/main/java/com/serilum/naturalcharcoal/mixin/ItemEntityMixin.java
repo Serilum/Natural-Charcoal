@@ -1,6 +1,6 @@
-package com.natamus.naturalcharcoal.mixin;
+package com.serilum.naturalcharcoal.mixin;
 
-import com.natamus.naturalcharcoal.config.ConfigHandler;
+import com.serilum.naturalcharcoal.config.ConfigHandler;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;

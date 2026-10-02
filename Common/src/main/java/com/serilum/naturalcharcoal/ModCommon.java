@@ -1,6 +1,6 @@
-package com.natamus.naturalcharcoal;
+package com.serilum.naturalcharcoal;
 
-import com.natamus.naturalcharcoal.config.ConfigHandler;
+import com.serilum.naturalcharcoal.config.ConfigHandler;
 
 public class ModCommon {
 

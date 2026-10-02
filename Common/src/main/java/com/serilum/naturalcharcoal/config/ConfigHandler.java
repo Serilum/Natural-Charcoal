@@ -1,7 +1,7 @@
-package com.natamus.naturalcharcoal.config;
+package com.serilum.naturalcharcoal.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.naturalcharcoal.util.Reference;
+import com.serilum.naturalcharcoal.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

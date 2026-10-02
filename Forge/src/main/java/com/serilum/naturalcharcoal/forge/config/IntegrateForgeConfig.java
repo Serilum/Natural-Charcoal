@@ -1,7 +1,7 @@
-package com.natamus.naturalcharcoal.forge.config;
+package com.serilum.naturalcharcoal.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.naturalcharcoal.util.Reference;
+import com.serilum.naturalcharcoal.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
