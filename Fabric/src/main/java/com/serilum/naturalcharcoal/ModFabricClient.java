@@ -1,7 +1,7 @@
-package com.natamus.naturalcharcoal;
+package com.serilum.naturalcharcoal;
 
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.naturalcharcoal.util.Reference;
+import com.serilum.naturalcharcoal.util.Reference;
 import net.fabricmc.api.ClientModInitializer;
 
 public class ModFabricClient implements ClientModInitializer {
